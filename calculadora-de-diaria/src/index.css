@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: var(--secbackgroundColor);
+  color: var(--mainTextColor);
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  border: 1px solid red;
+  
+  height: 100svh;
+
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  --mainBackgroundColor: #636e72;
+  --secbackgroundColor: #2d3436;
+  --mainTextColor: #dfe6e9;
+}
